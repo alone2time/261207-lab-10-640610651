@@ -1,5 +1,5 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
 export default function handler(req, res) {
-  return res.json({ name: "Chayanin Suatap", studentId: "123456789" });
+  return res
+    .status(200)
+    .json({ name: "Piyaphat Khaosaeng", studentId: "640610651" });
 }
